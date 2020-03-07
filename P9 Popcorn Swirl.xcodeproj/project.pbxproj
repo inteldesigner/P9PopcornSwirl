@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		465D54F6C472380FE14F24E2 /* Pods_P9_Popcorn_Swirl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E6E848A2CE0AD9FA823F6B /* Pods_P9_Popcorn_Swirl.framework */; };
+		4C5004962408026600905F8A /* ListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C5004952408026600905F8A /* ListCollectionViewCell.xib */; };
+		4C5004982408EA0700905F8A /* BetterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5004972408EA0700905F8A /* BetterButton.swift */; };
+		4C52CA9C23FB70BF006A57A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CA9B23FB70BF006A57A4 /* AppDelegate.swift */; };
+		4C52CA9E23FB70BF006A57A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CA9D23FB70BF006A57A4 /* SceneDelegate.swift */; };
+		4C52CAA023FB70BF006A57A4 /* MoviesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CA9F23FB70BF006A57A4 /* MoviesListViewController.swift */; };
+		4C52CAA523FB70BF006A57A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C52CAA323FB70BF006A57A4 /* Main.storyboard */; };
+		4C52CAAD23FB70C1006A57A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C52CAAB23FB70C1006A57A4 /* LaunchScreen.storyboard */; };
+		4C52CAD323FB75BC006A57A4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CAD223FB75BC006A57A4 /* DataManager.swift */; };
+		4C52CAD523FB75EC006A57A4 /* Itunes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CAD423FB75EC006A57A4 /* Itunes.swift */; };
+		4C52CAD823FB7740006A57A4 /* MovieInfoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CAD723FB7740006A57A4 /* MovieInfoList.swift */; };
+		4C52CADA23FB7762006A57A4 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CAD923FB7762006A57A4 /* Movie.swift */; };
+		4C52CADD23FB786E006A57A4 /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CADC23FB786E006A57A4 /* ListCollectionViewCell.swift */; };
+		4C52CAE223FB8054006A57A4 /* SavedMovies+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CAE123FB8054006A57A4 /* SavedMovies+CoreDataClass.swift */; };
+		4C52CAE423FB8078006A57A4 /* SavedMovies+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CAE323FB8078006A57A4 /* SavedMovies+CoreDataProperties.swift */; };
+		4C52CAE623FB80B9006A57A4 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CAE523FB80B9006A57A4 /* CoreData.swift */; };
+		4C52CAEA23FC2E22006A57A4 /* BookmarkedMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CAE923FC2E22006A57A4 /* BookmarkedMoviesViewController.swift */; };
+		4C52CAEC23FC2FC5006A57A4 /* WatchedMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CAEB23FC2FC5006A57A4 /* WatchedMoviesViewController.swift */; };
+		4C72274023FD309B0045E38C /* P9_Popcorn_Swirl.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 4C72273F23FD309B0045E38C /* P9_Popcorn_Swirl.xcdatamodel */; };
+		4CE589A32400009100D2E2B6 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE589A22400009100D2E2B6 /* MovieDetailViewController.swift */; };
+		4CFEFD5B23FE5A2900FEEAEB /* PopCorn Swirl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFEFD5A23FE5A2900FEEAEB /* PopCorn Swirl.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18E6E848A2CE0AD9FA823F6B /* Pods_P9_Popcorn_Swirl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_P9_Popcorn_Swirl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5004952408026600905F8A /* ListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCollectionViewCell.xib; sourceTree = "<group>"; };
+		4C5004972408EA0700905F8A /* BetterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterButton.swift; sourceTree = "<group>"; };
+		4C52CA9823FB70BF006A57A4 /* P9 Popcorn Swirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P9 Popcorn Swirl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C52CA9B23FB70BF006A57A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C52CA9D23FB70BF006A57A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4C52CA9F23FB70BF006A57A4 /* MoviesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListViewController.swift; sourceTree = "<group>"; };
+		4C52CAA423FB70BF006A57A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C52CAAC23FB70C1006A57A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C52CAAE23FB70C1006A57A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C52CAB723FB70C1006A57A4 /* P9_Popcorn_SwirlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P9_Popcorn_SwirlTests.swift; sourceTree = "<group>"; };
+		4C52CAB923FB70C1006A57A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C52CAC223FB70C1006A57A4 /* P9_Popcorn_SwirlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P9_Popcorn_SwirlUITests.swift; sourceTree = "<group>"; };
+		4C52CAC423FB70C1006A57A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C52CAD223FB75BC006A57A4 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		4C52CAD423FB75EC006A57A4 /* Itunes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Itunes.swift; sourceTree = "<group>"; };
+		4C52CAD723FB7740006A57A4 /* MovieInfoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoList.swift; sourceTree = "<group>"; };
+		4C52CAD923FB7762006A57A4 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		4C52CADC23FB786E006A57A4 /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
+		4C52CAE123FB8054006A57A4 /* SavedMovies+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SavedMovies+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4C52CAE323FB8078006A57A4 /* SavedMovies+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SavedMovies+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4C52CAE523FB80B9006A57A4 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		4C52CAE923FC2E22006A57A4 /* BookmarkedMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkedMoviesViewController.swift; sourceTree = "<group>"; };
+		4C52CAEB23FC2FC5006A57A4 /* WatchedMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchedMoviesViewController.swift; sourceTree = "<group>"; };
+		4C72273E23FD2D320045E38C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = "/Users/ericstein/Desktop/P9 Popcorn Swirl/P9 Popcorn Swirl/Model/Media.xcassets"; sourceTree = "<absolute>"; };
+		4C72273F23FD309B0045E38C /* P9_Popcorn_Swirl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = P9_Popcorn_Swirl.xcdatamodel; sourceTree = "<group>"; };
+		4CE589A22400009100D2E2B6 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		4CFEFD5A23FE5A2900FEEAEB /* PopCorn Swirl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PopCorn Swirl.png"; sourceTree = "<group>"; };
+		57EBD24C5B67B8AB513115BA /* Pods-P9 Popcorn Swirl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P9 Popcorn Swirl.release.xcconfig"; path = "Target Support Files/Pods-P9 Popcorn Swirl/Pods-P9 Popcorn Swirl.release.xcconfig"; sourceTree = "<group>"; };
+		FC535F5F6F1454B30819E604 /* Pods-P9 Popcorn Swirl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P9 Popcorn Swirl.debug.xcconfig"; path = "Target Support Files/Pods-P9 Popcorn Swirl/Pods-P9 Popcorn Swirl.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C52CA9523FB70BF006A57A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465D54F6C472380FE14F24E2 /* Pods_P9_Popcorn_Swirl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C52CA8F23FB70BF006A57A4 = {
+			isa = PBXGroup;
+			children = (
+				4C52CA9A23FB70BF006A57A4 /* P9 Popcorn Swirl */,
+				4C52CA9923FB70BF006A57A4 /* Products */,
+				BF5925B48BB56460BB0BC024 /* Pods */,
+				92FBFE5666769CC156486012 /* Frameworks */,
+				4CFEFD5923FE54DA00FEEAEB /* Test */,
+			);
+			sourceTree = "<group>";
+		};
+		4C52CA9923FB70BF006A57A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C52CA9823FB70BF006A57A4 /* P9 Popcorn Swirl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C52CA9A23FB70BF006A57A4 /* P9 Popcorn Swirl */ = {
+			isa = PBXGroup;
+			children = (
+				4C52CAD623FB771A006A57A4 /* Model */,
+				4C52CC6023FCE16B006A57A4 /* View */,
+				4C52CAD023FB754D006A57A4 /* Controller */,
+				4C52CAE023FB8020006A57A4 /* Data */,
+				4C52CAD123FB758B006A57A4 /* Helper */,
+				4C52CADB23FB7841006A57A4 /* Components */,
+			);
+			path = "P9 Popcorn Swirl";
+			sourceTree = "<group>";
+		};
+		4C52CAB623FB70C1006A57A4 /* P9 Popcorn SwirlTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C52CAB723FB70C1006A57A4 /* P9_Popcorn_SwirlTests.swift */,
+				4C52CAB923FB70C1006A57A4 /* Info.plist */,
+				4C52CAC123FB70C1006A57A4 /* P9 Popcorn SwirlUITests */,
+			);
+			path = "P9 Popcorn SwirlTests";
+			sourceTree = "<group>";
+		};
+		4C52CAC123FB70C1006A57A4 /* P9 Popcorn SwirlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C52CAC223FB70C1006A57A4 /* P9_Popcorn_SwirlUITests.swift */,
+				4C52CAC423FB70C1006A57A4 /* Info.plist */,
+			);
+			path = "P9 Popcorn SwirlUITests";
+			sourceTree = "<group>";
+		};
+		4C52CAD023FB754D006A57A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C52CA9B23FB70BF006A57A4 /* AppDelegate.swift */,
+				4C52CA9F23FB70BF006A57A4 /* MoviesListViewController.swift */,
+				4C52CAE923FC2E22006A57A4 /* BookmarkedMoviesViewController.swift */,
+				4C52CAEB23FC2FC5006A57A4 /* WatchedMoviesViewController.swift */,
+				4CE589A22400009100D2E2B6 /* MovieDetailViewController.swift */,
+				4C52CA9D23FB70BF006A57A4 /* SceneDelegate.swift */,
+				4C52CAAE23FB70C1006A57A4 /* Info.plist */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4C52CAD123FB758B006A57A4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4C52CAD223FB75BC006A57A4 /* DataManager.swift */,
+				4C52CAD423FB75EC006A57A4 /* Itunes.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4C52CAD623FB771A006A57A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C52CAD723FB7740006A57A4 /* MovieInfoList.swift */,
+				4C52CAD923FB7762006A57A4 /* Movie.swift */,
+				4C5004972408EA0700905F8A /* BetterButton.swift */,
+				4C72273F23FD309B0045E38C /* P9_Popcorn_Swirl.xcdatamodel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C52CADB23FB7841006A57A4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4C52CADC23FB786E006A57A4 /* ListCollectionViewCell.swift */,
+				4C5004952408026600905F8A /* ListCollectionViewCell.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4C52CAE023FB8020006A57A4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4C52CAE123FB8054006A57A4 /* SavedMovies+CoreDataClass.swift */,
+				4C52CAE323FB8078006A57A4 /* SavedMovies+CoreDataProperties.swift */,
+				4C52CAE523FB80B9006A57A4 /* CoreData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4C52CC6023FCE16B006A57A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C52CAA323FB70BF006A57A4 /* Main.storyboard */,
+				4C52CAAB23FB70C1006A57A4 /* LaunchScreen.storyboard */,
+				4C72273E23FD2D320045E38C /* Media.xcassets */,
+				4CFEFD5A23FE5A2900FEEAEB /* PopCorn Swirl.png */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CFEFD5923FE54DA00FEEAEB /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				4C52CAB623FB70C1006A57A4 /* P9 Popcorn SwirlTests */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		92FBFE5666769CC156486012 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E6E848A2CE0AD9FA823F6B /* Pods_P9_Popcorn_Swirl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF5925B48BB56460BB0BC024 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC535F5F6F1454B30819E604 /* Pods-P9 Popcorn Swirl.debug.xcconfig */,
+				57EBD24C5B67B8AB513115BA /* Pods-P9 Popcorn Swirl.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C52CA9723FB70BF006A57A4 /* P9 Popcorn Swirl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C52CAC723FB70C1006A57A4 /* Build configuration list for PBXNativeTarget "P9 Popcorn Swirl" */;
+			buildPhases = (
+				35E16397BA8033A4EE6F61FC /* [CP] Check Pods Manifest.lock */,
+				4C52CA9423FB70BF006A57A4 /* Sources */,
+				4C52CA9523FB70BF006A57A4 /* Frameworks */,
+				4C52CA9623FB70BF006A57A4 /* Resources */,
+				1BA52BBB4E9670DD471969B9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "P9 Popcorn Swirl";
+			productName = "P9 Popcorn Swirl";
+			productReference = 4C52CA9823FB70BF006A57A4 /* P9 Popcorn Swirl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C52CA9023FB70BF006A57A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Eric Stein";
+				TargetAttributes = {
+					4C52CA9723FB70BF006A57A4 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4C52CA9323FB70BF006A57A4 /* Build configuration list for PBXProject "P9 Popcorn Swirl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C52CA8F23FB70BF006A57A4;
+			productRefGroup = 4C52CA9923FB70BF006A57A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C52CA9723FB70BF006A57A4 /* P9 Popcorn Swirl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C52CA9623FB70BF006A57A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C52CAAD23FB70C1006A57A4 /* LaunchScreen.storyboard in Resources */,
+				4CFEFD5B23FE5A2900FEEAEB /* PopCorn Swirl.png in Resources */,
+				4C5004962408026600905F8A /* ListCollectionViewCell.xib in Resources */,
+				4C52CAA523FB70BF006A57A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BA52BBB4E9670DD471969B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P9 Popcorn Swirl/Pods-P9 Popcorn Swirl-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P9 Popcorn Swirl/Pods-P9 Popcorn Swirl-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-P9 Popcorn Swirl/Pods-P9 Popcorn Swirl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35E16397BA8033A4EE6F61FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-P9 Popcorn Swirl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C52CA9423FB70BF006A57A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C72274023FD309B0045E38C /* P9_Popcorn_Swirl.xcdatamodel in Sources */,
+				4C52CAD323FB75BC006A57A4 /* DataManager.swift in Sources */,
+				4C52CADA23FB7762006A57A4 /* Movie.swift in Sources */,
+				4C52CAA023FB70BF006A57A4 /* MoviesListViewController.swift in Sources */,
+				4C52CAEA23FC2E22006A57A4 /* BookmarkedMoviesViewController.swift in Sources */,
+				4C52CAE423FB8078006A57A4 /* SavedMovies+CoreDataProperties.swift in Sources */,
+				4C52CAD823FB7740006A57A4 /* MovieInfoList.swift in Sources */,
+				4C52CAE623FB80B9006A57A4 /* CoreData.swift in Sources */,
+				4C52CADD23FB786E006A57A4 /* ListCollectionViewCell.swift in Sources */,
+				4C52CAEC23FC2FC5006A57A4 /* WatchedMoviesViewController.swift in Sources */,
+				4C52CA9C23FB70BF006A57A4 /* AppDelegate.swift in Sources */,
+				4C52CA9E23FB70BF006A57A4 /* SceneDelegate.swift in Sources */,
+				4CE589A32400009100D2E2B6 /* MovieDetailViewController.swift in Sources */,
+				4C52CAD523FB75EC006A57A4 /* Itunes.swift in Sources */,
+				4C52CAE223FB8054006A57A4 /* SavedMovies+CoreDataClass.swift in Sources */,
+				4C5004982408EA0700905F8A /* BetterButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C52CAA323FB70BF006A57A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C52CAA423FB70BF006A57A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C52CAAB23FB70C1006A57A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C52CAAC23FB70C1006A57A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C52CAC523FB70C1006A57A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C52CAC623FB70C1006A57A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C52CAC823FB70C1006A57A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC535F5F6F1454B30819E604 /* Pods-P9 Popcorn Swirl.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35DZC633XF;
+				INFOPLIST_FILE = "$(SRCROOT)/P9 Popcorn Swirl/Controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericstein.P9-Popcorn-Swirl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4C52CAC923FB70C1006A57A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57EBD24C5B67B8AB513115BA /* Pods-P9 Popcorn Swirl.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35DZC633XF;
+				INFOPLIST_FILE = "$(SRCROOT)/P9 Popcorn Swirl/Controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericstein.P9-Popcorn-Swirl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C52CA9323FB70BF006A57A4 /* Build configuration list for PBXProject "P9 Popcorn Swirl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C52CAC523FB70C1006A57A4 /* Debug */,
+				4C52CAC623FB70C1006A57A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C52CAC723FB70C1006A57A4 /* Build configuration list for PBXNativeTarget "P9 Popcorn Swirl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C52CAC823FB70C1006A57A4 /* Debug */,
+				4C52CAC923FB70C1006A57A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C52CA9023FB70BF006A57A4 /* Project object */;
+}

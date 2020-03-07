@@ -1,0 +1,6 @@
+framework module Pods_P9_Popcorn_Swirl {
+  umbrella header "Pods-P9 Popcorn Swirl-umbrella.h"
+
+  export *
+  module * { export * }
+}
