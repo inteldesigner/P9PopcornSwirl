@@ -55,7 +55,7 @@
 		4C52CAE523FB80B9006A57A4 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
 		4C52CAE923FC2E22006A57A4 /* BookmarkedMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkedMoviesViewController.swift; sourceTree = "<group>"; };
 		4C52CAEB23FC2FC5006A57A4 /* WatchedMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchedMoviesViewController.swift; sourceTree = "<group>"; };
-		4C72273E23FD2D320045E38C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = "/Users/ericstein/Desktop/P9 Popcorn Swirl/P9 Popcorn Swirl/Model/Media.xcassets"; sourceTree = "<absolute>"; };
+		4C72273E23FD2D320045E38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/ericstein/Desktop/P9 Popcorn Swirl/P9 Popcorn Swirl/Model/Assets.xcassets"; sourceTree = "<absolute>"; };
 		4C72273F23FD309B0045E38C /* P9_Popcorn_Swirl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = P9_Popcorn_Swirl.xcdatamodel; sourceTree = "<group>"; };
 		4CE589A22400009100D2E2B6 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		4CFEFD5A23FE5A2900FEEAEB /* PopCorn Swirl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PopCorn Swirl.png"; sourceTree = "<group>"; };
@@ -184,7 +184,7 @@
 			children = (
 				4C52CAA323FB70BF006A57A4 /* Main.storyboard */,
 				4C52CAAB23FB70C1006A57A4 /* LaunchScreen.storyboard */,
-				4C72273E23FD2D320045E38C /* Media.xcassets */,
+				4C72273E23FD2D320045E38C /* Assets.xcassets */,
 				4CFEFD5A23FE5A2900FEEAEB /* PopCorn Swirl.png */,
 			);
 			path = View;

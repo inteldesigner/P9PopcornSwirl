@@ -122,10 +122,7 @@ class MovieDetailViewController: UIViewController {
             typeLabel.text = movie.type
             
             // FIXME: - get the first four charachters for the release year using NSAttributedString
-            releaseYearLabel.text = movie.releaseDate
-            descriptionTextView.text = movie.movieDescription
-            
-            
+
             releaseYearLabel.text = movie.releaseDate?.maxLength(length: 10)
             descriptionTextView.text = movie.movieDescription
             
@@ -133,15 +130,16 @@ class MovieDetailViewController: UIViewController {
             if let imageUrl = URL(string: movie.artworkURL) {
                 Itunes.getImage(imageUrl: imageUrl) { (success, imageData) in
                     if success, let imageData = imageData ,
-                        let artwork = UIImage(data: imageData) {
+                        let moviePic = UIImage(data: imageData) {
                         DispatchQueue.main.async {
-                            self.imageView.image = artwork
+                            self.imageView.image = moviePic
                         }
                     }
                 }
             }
         }
-        
+    
+    // alert in case there is no internet access
         func presentNoDataAlert(title: String?, message: String?) {
             let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
             let dismissAction = UIAlertAction(title: "Got it", style: .cancel)
@@ -216,6 +214,7 @@ class MovieDetailViewController: UIViewController {
         func configure() {
             updateNoteOutlet()
             updateUI()
+            
             //button rounded
             roundedButton(button: storeButton)
             roundedButton(button: addNoteOutlet)
@@ -245,7 +244,6 @@ class MovieDetailViewController: UIViewController {
 
     // MARK: - Add note functionality
     extension MovieDetailViewController: UITextViewDelegate {
-        
         
         func ifWeHaveNote() -> (String,String,String) {
             var titles = ("","","")
@@ -333,19 +331,19 @@ class MovieDetailViewController: UIViewController {
             
         }
 
-        // to limit the number of characters in releaseYear label so that only it accommodates the release date without the other characters
+        // limit the number of characters in releaseYear label for only release date
         extension String {
            func maxLength(length: Int) -> String {
-               var str = self
-               let nsString = str as NSString
+               var limitCharacters = self
+               let nsString = limitCharacters as NSString
                if nsString.length >= length {
-                   str = nsString.substring(with:
+                   limitCharacters = nsString.substring(with:
                        NSRange(
                         location: 0,
                         length: nsString.length > length ? length : nsString.length)
                    )
                }
-               return  str
+               return  limitCharacters
            }
         }
 

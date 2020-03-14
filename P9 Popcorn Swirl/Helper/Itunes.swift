@@ -56,10 +56,10 @@ class Itunes {
                         }
                         if let id = movie["trackId"] as? Int64,
                             let title = movie["trackName"] as? String,
-                            let catergory = movie["primaryGenreName"] as? String,
+                            let category = movie["primaryGenreName"] as? String,
                             let artWorkURL = movie["artworkUrl100"] as? String {
-                            let movieBrief = MovieInfoList(id: id, title: title, category: catergory, artWorkURL: artWorkURL)
-                            list.append(movieBrief)
+                            let movieInfoList = MovieInfoList(id: id, title: title, category: category, artWorkURL: artWorkURL)
+                            list.append(movieInfoList)
                         }
                     }
                     completion(true, list)
@@ -90,7 +90,7 @@ class Itunes {
                         let sourceURL = movieResults["trackViewUrl"] as? String {
                         let movie = Movie(id: id, title: title, category: category, artWorkURL: artWorkURL, sourceURL: sourceURL)
                         movie.releaseDate = movieResults["releaseDate"] as? String
-                        movie.movieDescription = movieResults["movieDescription"] as? String
+                        movie.movieDescription = movieResults["longDescription"] as? String
                         completion(true, movie)
                     } else {
                     completion(false, nil)

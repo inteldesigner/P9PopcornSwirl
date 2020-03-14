@@ -281,6 +281,9 @@
                                 <state key="selected" backgroundImage="bookmark.fill" catalog="system">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="bookmarkButtonTapped:" destination="LAa-0j-5Wj" eventType="touchUpInside" id="qWM-Ju-nfR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3W-hp-AJr">
                                 <rect key="frame" x="334" y="605.5" width="60" height="44"/>
@@ -372,6 +375,7 @@
                     <navigationItem key="navigationItem" id="Pvp-AK-hzd"/>
                     <connections>
                         <outlet property="addNoteOutlet" destination="uZ3-K7-30A" id="Ijc-c8-awV"/>
+                        <outlet property="bookmarkOutlet" destination="3Nl-0k-Euh" id="Tzf-n4-VNO"/>
                         <outlet property="descriptionTextView" destination="Cey-CL-7QK" id="sDF-ap-w4d"/>
                         <outlet property="imageView" destination="tYH-of-iZK" id="oaP-sV-dak"/>
                         <outlet property="movieTitle" destination="hgd-yC-sit" id="8h8-67-0dB"/>
