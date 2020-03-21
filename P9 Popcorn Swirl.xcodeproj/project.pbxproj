@@ -10,6 +10,8 @@
 		465D54F6C472380FE14F24E2 /* Pods_P9_Popcorn_Swirl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E6E848A2CE0AD9FA823F6B /* Pods_P9_Popcorn_Swirl.framework */; };
 		4C5004962408026600905F8A /* ListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C5004952408026600905F8A /* ListCollectionViewCell.xib */; };
 		4C5004982408EA0700905F8A /* BetterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5004972408EA0700905F8A /* BetterButton.swift */; };
+		4C5004A1241C6B4200905F8A /* PopCorn Swirl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C5004A0241C6B4200905F8A /* PopCorn Swirl.png */; };
+		4C5004A7241DE69C00905F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C72273E23FD2D320045E38C /* Assets.xcassets */; };
 		4C52CA9C23FB70BF006A57A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CA9B23FB70BF006A57A4 /* AppDelegate.swift */; };
 		4C52CA9E23FB70BF006A57A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CA9D23FB70BF006A57A4 /* SceneDelegate.swift */; };
 		4C52CAA023FB70BF006A57A4 /* MoviesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CA9F23FB70BF006A57A4 /* MoviesListViewController.swift */; };
@@ -27,14 +29,14 @@
 		4C52CAEC23FC2FC5006A57A4 /* WatchedMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CAEB23FC2FC5006A57A4 /* WatchedMoviesViewController.swift */; };
 		4C72274023FD309B0045E38C /* P9_Popcorn_Swirl.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 4C72273F23FD309B0045E38C /* P9_Popcorn_Swirl.xcdatamodel */; };
 		4CE589A32400009100D2E2B6 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE589A22400009100D2E2B6 /* MovieDetailViewController.swift */; };
-		4CFEFD5B23FE5A2900FEEAEB /* PopCorn Swirl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFEFD5A23FE5A2900FEEAEB /* PopCorn Swirl.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18E6E848A2CE0AD9FA823F6B /* Pods_P9_Popcorn_Swirl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_P9_Popcorn_Swirl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5004952408026600905F8A /* ListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCollectionViewCell.xib; sourceTree = "<group>"; };
 		4C5004972408EA0700905F8A /* BetterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterButton.swift; sourceTree = "<group>"; };
-		4C52CA9823FB70BF006A57A4 /* P9 Popcorn Swirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P9 Popcorn Swirl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5004A0241C6B4200905F8A /* PopCorn Swirl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PopCorn Swirl.png"; sourceTree = "<group>"; };
+		4C5004A6241C6FE600905F8A /* P9 Popcorn Swirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P9 Popcorn Swirl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C52CA9B23FB70BF006A57A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C52CA9D23FB70BF006A57A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4C52CA9F23FB70BF006A57A4 /* MoviesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListViewController.swift; sourceTree = "<group>"; };
@@ -55,10 +57,9 @@
 		4C52CAE523FB80B9006A57A4 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
 		4C52CAE923FC2E22006A57A4 /* BookmarkedMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkedMoviesViewController.swift; sourceTree = "<group>"; };
 		4C52CAEB23FC2FC5006A57A4 /* WatchedMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchedMoviesViewController.swift; sourceTree = "<group>"; };
-		4C72273E23FD2D320045E38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/ericstein/Desktop/P9 Popcorn Swirl/P9 Popcorn Swirl/Model/Assets.xcassets"; sourceTree = "<absolute>"; };
+		4C72273E23FD2D320045E38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "P9 Popcorn Swirl/Model/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		4C72273F23FD309B0045E38C /* P9_Popcorn_Swirl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = P9_Popcorn_Swirl.xcdatamodel; sourceTree = "<group>"; };
 		4CE589A22400009100D2E2B6 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
-		4CFEFD5A23FE5A2900FEEAEB /* PopCorn Swirl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PopCorn Swirl.png"; sourceTree = "<group>"; };
 		57EBD24C5B67B8AB513115BA /* Pods-P9 Popcorn Swirl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P9 Popcorn Swirl.release.xcconfig"; path = "Target Support Files/Pods-P9 Popcorn Swirl/Pods-P9 Popcorn Swirl.release.xcconfig"; sourceTree = "<group>"; };
 		FC535F5F6F1454B30819E604 /* Pods-P9 Popcorn Swirl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P9 Popcorn Swirl.debug.xcconfig"; path = "Target Support Files/Pods-P9 Popcorn Swirl/Pods-P9 Popcorn Swirl.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,19 +80,11 @@
 			isa = PBXGroup;
 			children = (
 				4C52CA9A23FB70BF006A57A4 /* P9 Popcorn Swirl */,
-				4C52CA9923FB70BF006A57A4 /* Products */,
 				BF5925B48BB56460BB0BC024 /* Pods */,
 				92FBFE5666769CC156486012 /* Frameworks */,
 				4CFEFD5923FE54DA00FEEAEB /* Test */,
+				4C5004A6241C6FE600905F8A /* P9 Popcorn Swirl.app */,
 			);
-			sourceTree = "<group>";
-		};
-		4C52CA9923FB70BF006A57A4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4C52CA9823FB70BF006A57A4 /* P9 Popcorn Swirl.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		4C52CA9A23FB70BF006A57A4 /* P9 Popcorn Swirl */ = {
@@ -184,8 +177,8 @@
 			children = (
 				4C52CAA323FB70BF006A57A4 /* Main.storyboard */,
 				4C52CAAB23FB70C1006A57A4 /* LaunchScreen.storyboard */,
+				4C5004A0241C6B4200905F8A /* PopCorn Swirl.png */,
 				4C72273E23FD2D320045E38C /* Assets.xcassets */,
-				4CFEFD5A23FE5A2900FEEAEB /* PopCorn Swirl.png */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -234,7 +227,7 @@
 			);
 			name = "P9 Popcorn Swirl";
 			productName = "P9 Popcorn Swirl";
-			productReference = 4C52CA9823FB70BF006A57A4 /* P9 Popcorn Swirl.app */;
+			productReference = 4C5004A6241C6FE600905F8A /* P9 Popcorn Swirl.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -261,7 +254,7 @@
 				Base,
 			);
 			mainGroup = 4C52CA8F23FB70BF006A57A4;
-			productRefGroup = 4C52CA9923FB70BF006A57A4 /* Products */;
+			productRefGroup = 4C52CA8F23FB70BF006A57A4;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -276,9 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C52CAAD23FB70C1006A57A4 /* LaunchScreen.storyboard in Resources */,
-				4CFEFD5B23FE5A2900FEEAEB /* PopCorn Swirl.png in Resources */,
 				4C5004962408026600905F8A /* ListCollectionViewCell.xib in Resources */,
+				4C5004A1241C6B4200905F8A /* PopCorn Swirl.png in Resources */,
 				4C52CAA523FB70BF006A57A4 /* Main.storyboard in Resources */,
+				4C5004A7241DE69C00905F8A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

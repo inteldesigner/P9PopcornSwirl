@@ -332,11 +332,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KNe-zE-qBH" customClass="GADBannerView">
-                                <rect key="frame" x="27" y="708" width="360" height="100"/>
+                                <rect key="frame" x="47" y="708" width="320" height="100"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GoogleAds" translatesAutoresizingMaskIntoConstraints="NO" id="JFm-T0-mpq">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="Lqn-FD-a8T"/>
-                                    <constraint firstAttribute="width" constant="360" id="rHe-1s-sZM"/>
+                                    <constraint firstAttribute="width" constant="320" id="rHe-1s-sZM"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -346,13 +352,12 @@
                             <constraint firstItem="uZ3-K7-30A" firstAttribute="top" secondItem="PIU-PA-lOI" secondAttribute="bottom" constant="8" id="6jf-8i-tfR"/>
                             <constraint firstItem="2ur-jd-dpK" firstAttribute="trailing" secondItem="Cey-CL-7QK" secondAttribute="trailing" constant="20" id="ACt-Th-Gba"/>
                             <constraint firstItem="3Nl-0k-Euh" firstAttribute="leading" secondItem="2ur-jd-dpK" secondAttribute="leading" constant="20" id="BPM-IQ-w4o"/>
-                            <constraint firstItem="KNe-zE-qBH" firstAttribute="trailing" secondItem="2ur-jd-dpK" secondAttribute="trailing" constant="-27" id="G0n-N5-Aos"/>
-                            <constraint firstItem="KNe-zE-qBH" firstAttribute="leading" secondItem="2ur-jd-dpK" secondAttribute="leading" constant="27" id="GGh-Z4-Kuw"/>
                             <constraint firstItem="htH-rv-ovv" firstAttribute="top" secondItem="hgd-yC-sit" secondAttribute="bottom" constant="8" id="HQ4-Aa-ezc"/>
                             <constraint firstItem="hgd-yC-sit" firstAttribute="top" secondItem="tYH-of-iZK" secondAttribute="bottom" constant="7.5" id="Hby-Mr-UKd"/>
                             <constraint firstItem="PIU-PA-lOI" firstAttribute="centerX" secondItem="fXV-pL-Qm7" secondAttribute="centerX" id="KKw-rM-YKL"/>
                             <constraint firstItem="tYH-of-iZK" firstAttribute="leading" secondItem="2ur-jd-dpK" secondAttribute="leading" constant="107" id="Neb-Tf-9kT"/>
                             <constraint firstItem="PIU-PA-lOI" firstAttribute="top" secondItem="Cey-CL-7QK" secondAttribute="bottom" constant="8" id="SkS-28-wKP"/>
+                            <constraint firstItem="KNe-zE-qBH" firstAttribute="centerX" secondItem="fXV-pL-Qm7" secondAttribute="centerX" id="VhD-Ul-Ku8"/>
                             <constraint firstItem="2ur-jd-dpK" firstAttribute="trailing" secondItem="htH-rv-ovv" secondAttribute="trailing" constant="20" id="X5E-GN-f34"/>
                             <constraint firstItem="uZ3-K7-30A" firstAttribute="leading" secondItem="2ur-jd-dpK" secondAttribute="leading" constant="20" id="YVI-Af-a8I"/>
                             <constraint firstItem="hgd-yC-sit" firstAttribute="leading" secondItem="2ur-jd-dpK" secondAttribute="leading" constant="20" id="YcA-GD-rVM"/>
@@ -375,6 +380,7 @@
                     <navigationItem key="navigationItem" id="Pvp-AK-hzd"/>
                     <connections>
                         <outlet property="addNoteOutlet" destination="uZ3-K7-30A" id="Ijc-c8-awV"/>
+                        <outlet property="bannerView" destination="KNe-zE-qBH" id="xnU-VL-biE"/>
                         <outlet property="bookmarkOutlet" destination="3Nl-0k-Euh" id="Tzf-n4-VNO"/>
                         <outlet property="descriptionTextView" destination="Cey-CL-7QK" id="sDF-ap-w4d"/>
                         <outlet property="imageView" destination="tYH-of-iZK" id="oaP-sV-dak"/>
@@ -391,6 +397,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="GoogleAds" width="662" height="226"/>
         <image name="bookmark" catalog="system" width="56" height="64"/>
         <image name="bookmark.fill" catalog="system" width="56" height="64"/>
         <image name="eye" catalog="system" width="64" height="40"/>

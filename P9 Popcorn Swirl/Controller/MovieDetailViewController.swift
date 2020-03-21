@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import GoogleMobileAds
+import GoogleMobileAds
 
 protocol ModalHandler {
     func modalDismissed()
@@ -19,6 +19,9 @@ class MovieDetailViewController: UIViewController {
     var movieNote: String?
     private var movie: Movie?
     var delegate: ModalHandler?
+    
+//    var bannerView: GADBannerView!
+    
     
     // textview inside add note alert controller
     let textView = UITextView(frame: CGRect.zero)
@@ -35,8 +38,7 @@ class MovieDetailViewController: UIViewController {
     @IBOutlet weak var watchOutlet: UIButton!
     @IBOutlet weak var addNoteOutlet: UIButton!
     @IBOutlet weak var storeButton: UIButton!
-//    @IBOutlet weak var bannerView: GADBannerView!
-    
+    @IBOutlet weak var bannerView: GADBannerView!
     
     @IBAction func bookmarkButtonTapped(_ sender: Any) {
          updateBookmarkOutlet()
@@ -47,7 +49,6 @@ class MovieDetailViewController: UIViewController {
               }
     }
     
-    
     @IBAction func watchOutletTapped(_ sender: Any) {
         updateWatchOutlet()
              if bookmarkOutlet.isSelected || watchOutlet.isSelected {
@@ -57,13 +58,10 @@ class MovieDetailViewController: UIViewController {
              }
     }
     
-    
-    
     @IBAction func storeButtonTapped(_ sender: Any) {
       print(movie!.sourceURL)
               openURL(sourceUrl: movie!.sourceURL)
           }
-    
     
     @IBAction func addNoteButtonTapped(_ sender: Any) {
          addNoteAction()
@@ -206,8 +204,8 @@ class MovieDetailViewController: UIViewController {
             super.viewDidLoad()
             loadData()
             configure()
-            //MARK: -Configure ad
-//            configureAdUnit()
+            configureAdUnit()
+
         }
         
     
@@ -228,11 +226,12 @@ class MovieDetailViewController: UIViewController {
       }
         
 //    google add
-//        func configureAdUnit() {
-//            bannerView.adUnitID = "ca-app-pub-3940256099942544~1458002511"
-//            bannerView.rootViewController = self
-//            bannerView.load(GADRequest())
-//        }
+        func configureAdUnit() {
+            bannerView.adUnitID = "ca-app-pub-4715423833680948/2797116513"
+            bannerView.rootViewController = self
+            bannerView.load(GADRequest())
+            bannerView.delegate = self
+        }
         
      
 
@@ -241,6 +240,18 @@ class MovieDetailViewController: UIViewController {
             delegate?.modalDismissed()
         }
     }
+
+extension MovieDetailViewController: GADBannerViewDelegate {
+    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+        print("receive Ad")
+    }
+    
+    func adView(_bannerView: GADBannerView, didFailToReceiveAdWithError error: GADRequestError){
+        print(error)
+    }
+    
+}
+
 
     // MARK: - Add note functionality
     extension MovieDetailViewController: UITextViewDelegate {
@@ -291,6 +302,7 @@ class MovieDetailViewController: UIViewController {
             textView.backgroundColor    = UIColor.white
             textView.layer.borderColor  = UIColor.lightGray.cgColor
             textView.layer.borderWidth  = 1.0
+            //placeholder
             textView.textColor          = textViewText == "Write your note here" ? UIColor.lightGray : UIColor.black
             textView.text               = textViewText
             textView.delegate           = self
