@@ -21,6 +21,8 @@ class MovieDetailViewController: UIViewController {
     var delegate: ModalHandler?
     
 //    var bannerView: GADBannerView!
+//    ID: ca-app-pub-4715423833680948~2058749913
+//    BannerID = "ca-app-pub-4715423833680948/2797116513"
     
     
     // textview inside add note alert controller
@@ -227,10 +229,11 @@ class MovieDetailViewController: UIViewController {
         
 //    google add
         func configureAdUnit() {
-            bannerView.adUnitID = "ca-app-pub-4715423833680948/2797116513"
+
+            bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
             bannerView.rootViewController = self
             bannerView.load(GADRequest())
-            bannerView.delegate = self
+
         }
         
      
