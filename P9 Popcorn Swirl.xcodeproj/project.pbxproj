@@ -28,6 +28,7 @@
 		4C52CAEA23FC2E22006A57A4 /* BookmarkedMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CAE923FC2E22006A57A4 /* BookmarkedMoviesViewController.swift */; };
 		4C52CAEC23FC2FC5006A57A4 /* WatchedMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52CAEB23FC2FC5006A57A4 /* WatchedMoviesViewController.swift */; };
 		4C72274023FD309B0045E38C /* P9_Popcorn_Swirl.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 4C72273F23FD309B0045E38C /* P9_Popcorn_Swirl.xcdatamodel */; };
+		4C9F83B324308C0E001F36ED /* Technical Requirements documentP9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C9F83B224308C0E001F36ED /* Technical Requirements documentP9.pdf */; };
 		4CE589A32400009100D2E2B6 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE589A22400009100D2E2B6 /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		4C52CAEB23FC2FC5006A57A4 /* WatchedMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchedMoviesViewController.swift; sourceTree = "<group>"; };
 		4C72273E23FD2D320045E38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "P9 Popcorn Swirl/Model/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		4C72273F23FD309B0045E38C /* P9_Popcorn_Swirl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = P9_Popcorn_Swirl.xcdatamodel; sourceTree = "<group>"; };
+		4C9F83B224308C0E001F36ED /* Technical Requirements documentP9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Technical Requirements documentP9.pdf"; sourceTree = "<group>"; };
 		4CE589A22400009100D2E2B6 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		57EBD24C5B67B8AB513115BA /* Pods-P9 Popcorn Swirl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P9 Popcorn Swirl.release.xcconfig"; path = "Target Support Files/Pods-P9 Popcorn Swirl/Pods-P9 Popcorn Swirl.release.xcconfig"; sourceTree = "<group>"; };
 		FC535F5F6F1454B30819E604 /* Pods-P9 Popcorn Swirl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P9 Popcorn Swirl.debug.xcconfig"; path = "Target Support Files/Pods-P9 Popcorn Swirl/Pods-P9 Popcorn Swirl.debug.xcconfig"; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				4C52CAAB23FB70C1006A57A4 /* LaunchScreen.storyboard */,
 				4C5004A0241C6B4200905F8A /* PopCorn Swirl.png */,
 				4C72273E23FD2D320045E38C /* Assets.xcassets */,
+				4C9F83B224308C0E001F36ED /* Technical Requirements documentP9.pdf */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C9F83B324308C0E001F36ED /* Technical Requirements documentP9.pdf in Resources */,
 				4C52CAAD23FB70C1006A57A4 /* LaunchScreen.storyboard in Resources */,
 				4C5004962408026600905F8A /* ListCollectionViewCell.xib in Resources */,
 				4C5004A1241C6B4200905F8A /* PopCorn Swirl.png in Resources */,
